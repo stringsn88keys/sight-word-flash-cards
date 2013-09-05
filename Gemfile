@@ -9,8 +9,12 @@ gem 'sqlite3'
 
 group :development, :test do
   gem 'cucumber-rails', :require => false
-  gem 'rspec-rails', '~> 2.0'
+  gem 'rspec-rails', '~> 2.13.0'
   gem 'database_cleaner'
+end
+
+group :test do
+  gem 'shoulda-matchers'
 end
 
 # Gems used only for assets and not required

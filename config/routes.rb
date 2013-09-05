@@ -1,4 +1,5 @@
 SightWordFlashCards::Application.routes.draw do
+  get '/random' => 'flash_cards#random'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
